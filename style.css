@@ -111,7 +111,7 @@ body{
 .grid-info{
     align-items: center;
     justify-content: center;
-    background-color: #eeeeee;
+    background-color: #f8f7f7;
     width: 100%;
     height: 100vh;
     padding: 12rem;
@@ -140,6 +140,7 @@ body{
     padding: 10px;
 }
 .story-box{
+    background-color: #eeeeee;
     padding: 13rem;
     display: flex;
     height: 100vh;
@@ -171,7 +172,7 @@ body{
     text-align: center;
 }
 .expert-box{
-    background-color: #eeeeee;
+    background-color: #f8f7f7;
 }
 .expert-grid{
     padding: 5rem;
@@ -215,7 +216,7 @@ body{
     font-weight: 700;
 }
 .partners{
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,4 +228,46 @@ body{
     align-items: center;
     justify-content: center;
     margin-right: 5rem;
+}
+.our-work{
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee;
+}
+.our-work h1{
+    padding-top: 8rem;
+    text-align: center;
+}
+.work-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 2rem 12rem;
+    gap: 1rem;
+}
+.work-box{
+    margin: 1rem 0;
+}
+.work-box h2{
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 1rem 0px;
+}
+.work-box p{
+    line-height: 1.2;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.work-box img{
+    align-items: center;
+    justify-content: center;
+}
+.work-box button{
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #9d4edd;
+    width: 9rem;
+    height: 3rem;
+    border: 2px solid #9d4edd;
+    border-radius: 10px;
 }
