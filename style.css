@@ -453,10 +453,11 @@ body{
         display: none;
     }
     .grid-info{
-        padding: 0;
-        display: flex;
-        row-gap: 0.5rem;
-        grid-row-start: 0;
+        height: 100%;
+        grid-gap: 1rem;
+        margin: 0;
+        padding: 40px;
+        grid-template-columns: repeat(2,1fr);
     }
     .info-box{
         padding: 0.5rem 0 0 0;
